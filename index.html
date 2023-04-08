@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graphs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #666;
+        }
+
+        .container {
+            max-width: 1800px;
+            min-height: 1000px;
+            margin: 5rem auto;
+        }
+
+        .card {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            border-radius: 4px;
+            background: #fff;
+            padding: 1rem;
+            box-shadow: 2px 3px 10px rgba(0,0,0,0.2);
+        }
+
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- <canvas id="chart"></canvas> -->
+            <canvas id="candlestick-chart" width="800" height="400"></canvas>
+            <canvas id="canvas"></canvas>
+        </div>
+    </div>
+    <!-- <script src="./app.js"></script> -->
+    <script src="./chart.js"></script>
+    <script src="./tounament_scheldule_chart.js"></script>
+    
+</body>
+</html>
